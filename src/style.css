@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&family=Source+Sans+3:wght@700&display=swap');
+
+* {
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0;
+    pad: 0;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100svw;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links>div {
+    display: flex;
+    margin-right: 1.4rem;
+}
+
+.nav-links>div>a {
+    text-decoration: none;
+    color: #000;
+}
+
+.leftSide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 2rem;
+}
+
+.searchBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.searchBox>input {
+    position: relative;
+    padding: 0.75rem;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.searchBox>span {
+    position: relative;
+    right: 30px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 6rem;
+}
+
+.services>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 2rem;
+}
+.services>div>a {
+    margin-right: 0.75rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.rightside {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 3rem;
+}
+
+.account>button {
+    border-radius: 50px;
+    padding: 10px;
+    border: 1px lightgrey;
+}
+
+.account>.signup{
+    border-right: none;
+    z-index: 10;
+    width: 90px;
+    background-color: green;
+    color: #fff;
+}
+
+.account>.login{
+    position: relative;
+    right: 30px;
+    width: 120px;
+}
+.account>.login:hover{
+    background-color: green;
+    color: #fff;
+}
+
+.inlinetext {
+    text-wrap: nowrap;
+}
+
+.services>div>span {
+    color: purple;
+}
+
+.hero1 {
+    background: url(/Images/astro.jpg);
+    width: 100svw;
+    height: 80svh;
+    background-size: cover;
+    background-position: center;
+    opacity: .9;
+}
+
+.hero1>div>h1 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 10rem;
+    font-size: 4rem;
+    z-index: 10;
+}
+.hero1>div>p {
+    color: yellow;
+    text-align: center;
+    position: relative;
+    top: 10rem;
+    font-size: 1.3rem;
+    z-index: 10;
+}
+
+.hero1>div>.searchbar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 12rem;
+}
+
+.hero1>div>.searchbar>input {
+    width: 400px;
+    padding: .75rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+}
+.hero1>div>.searchbar>button {
+    width: 100px;
+    padding: .75rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color: green;
+    align-items: center;
+}
+
+.hero1>.hero-links {
+    background-color: transparent;
+}
+.hero1>.hero-links>ul {
+    display: flex;
+    justify-content: space-between;
+    padding: .75rem;
+}
+.hero1>.hero-links>ul>li {
+   list-style: none;
+}
+.hero1>.hero-links>ul>li>a {
+   text-decoration: none;
+   color:#fff;
+}
+
+.hero1>a {
+    color: #fff;
+    position: relative;
+    top: 15rem;
+    left: 37rem;
+    font-size: 1.5rem;
+}
+
+.contentDisplay {
+    display: flex;
+    flex-direction: column;
+    width: 50svw;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentDisplay>h1 {
+    font-size: 6rem;
+}
+.contentDisplay>p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.contentDisplay>button {
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn1 {
+    background-color: green;
+    color: #fff;
+}
+.btn2 {
+    background-color: rgb(255, 255, 67);
+    color: #000;
+}
+.btn3 {
+    background-color: black;
+    color: #fff;
+}
+.btn4 {
+    background-color: pink;
+}
+
+.heroTwoDisplay {
+    display: flex;
+    background-color: aquamarine;
+    height: 70svh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heroThreeDisplay {
+    display: flex;
+    background-color: rgb(255, 208, 127);
+    height: 70svh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heroFourDisplay {
+    display: flex;
+    background-color: rgb(88, 104, 225);
+    height: 70svh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heroFiveDisplay {
+    display: flex;
+    background-color: rgb(225, 88, 186);
+    height: 70svh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heroSixDisplay {
+    display: flex;
+    background-color: rgb(225, 88, 88);
+    height: 70svh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.snippet {
+    padding: 40px;
+}
+
+.snippet>.snip {
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    background-image: url(/Images/snip.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.heroSevenDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.heroSevenDisplay>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    padding: 1rem;
+}
+.heroSevenDisplay>div>h1,p {
+    margin-bottom: 2rem;
+}
+.heroSevenDisplay>div>button {
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: #000;
+}
+.heroSevenDisplay>.boxOne {
+    background-color: pink;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.HeroSevenContent {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    background-color: #565050;
+}
+
+.NavDisplay {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1rem;
+}
+.NavDisplay>ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.NavDisplay>ul>li {
+    margin-right: 1rem;
+    list-style: none;
+}
+.NavDisplay>ul>li>a {
+    text-decoration: none;
+    color: rgb(252, 252, 71);
+}
+
+.footerDisplay {
+    background: url(/Images/moon.jpg);
+    width: 100svw;
+    height: 100svh;
+    background-size: cover;
+    background-position: center;
+}
+
+.NavDisplay>div>span {
+    color: #fff;
+}
+
+.footerLinks {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    padding: 5rem;
+    margin-right: 8rem;
+}
+.footerLinks>div>ul>li {
+    list-style: none;
+}
+.footerLinks>div>ul>li>a {
+    color: #fff;
+    text-decoration: none;
+}
+.footerLinks>div>h2 {
+    margin-bottom: 2rem;
+}
+
+.socialsDisplay>div>i{
+    color: #fff;
+    margin-right: 2rem;
+}
+.socialsDisplay>div>a{
+    color: #fff;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.socialsDisplay {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.socialspara {
+    color: #fff;
+    width: 800px;
+}
+
+.socialsContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 4rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+.bgWhite {
+    background-color: #fff;
+}
+ 
+
